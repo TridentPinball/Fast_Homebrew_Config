@@ -1,0 +1,84 @@
+#config_version=5
+
+#Can name these to match left, right, center, or however you want. The switch name defined here
+#Will be used in any modes where the switches are activated, etc. 
+
+switches:
+  
+#3208 Board - Switches
+
+  s_trough_ball_1:
+    number: 3208-0
+    type: 'NC'
+
+  s_trough_ball_2:
+    number: 3208-1
+
+  s_trough_ball_3:
+    number: 3208-2
+
+  s_trough_ball_4:
+    number: 3208-3
+
+  s_trough_ball_5:
+    number: 3208-4
+
+  s_trough_ball_6:
+    number: 3208-5
+
+  s_trough_ball_jam:
+    number: 3208-6
+    type: 'NC'
+
+  s_plunger:
+    number: 3208-7
+
+  s_right_flipper_EOS:
+    number: 3208-8
+
+  s_right_sling:
+    number: 3208-9
+
+  s_right_inner_lane:
+    number: 3208-10
+
+  s_right_outer_lane:
+    number: 3208-11
+
+  s_left_flipper_EOS:
+    number: 3208-12
+
+  s_left_outer_lane:
+    number: 3208-13
+
+  s_left_inner_lane:
+    number: 3208-14
+
+  s_left_sling:
+    number: 3208-15
+
+
+
+
+  s_right_flipper:
+    number: 3208-24
+    tags: flipper_right
+
+  s_start:
+    number: 3208-26
+    tags: start
+
+  s_left_flipper:
+    number: 3208-27
+    tags: flipper_left
+
+  s_pop_bumper_1: 
+    number: 3208-28
+
+  s_pop_bumper_2:
+    number: 3208-29
+
+  s_pop_bumper_3:
+    number: 3208-30
+
+

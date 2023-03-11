@@ -1,0 +1,68 @@
+#show_version=5
+- duration: 3s
+  slides:
+    last_game_score_slide:
+      widgets:
+      - type: text
+        text: LAST GAME
+        
+      - type: text
+        text: (machine|player1_score)
+        
+      - type: text
+        text: (machine|player2_score)
+        
+      - type: text
+        text: (machine|player3_score)
+        
+      - type: text
+        text: (machine|player4_score)
+        
+
+- duration: 3s
+  slides:
+    mission_pinball:
+      widgets:
+      - type: Text
+        text: Homebrew Pinball
+        
+      transition:
+         type: move_in
+         duration: 1s
+         direction: top
+
+- duration: 4s
+  slides:
+    press_start:
+      widgets:
+      - type: Text
+        text: PRESS START
+        
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: 2s
+            - property: opacity
+              value: 1
+              duration: 4s
+              repeat: true
+      - type: Text
+        text: FREE PLAY
+        
+      transition:
+         type: move_in
+         duration: 1s
+         direction: right
+
+- duration: 3s
+  slides:
+    awesome_slide:
+      widgets:
+      - type: text
+        text: Trident Pinball
+        
+      transition:
+         type: push
+         duration: 1s
+         direction: left

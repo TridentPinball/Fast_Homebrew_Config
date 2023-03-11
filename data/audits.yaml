@@ -1,0 +1,33 @@
+events:
+  game_ended: 0
+  game_started: 4
+player:
+  score:
+    average: 0
+    top: []
+    total: 0
+switches:
+  s_auto_launcher: 0
+  s_ball_drain: 0
+  s_left_flipper: 36
+  s_left_inner_lane: 0
+  s_left_outer_lane: 0
+  s_left_sling: 7
+  s_plunger: 9
+  s_pop_bumper_1: 0
+  s_pop_bumper_2: 0
+  s_pop_bumper_3: 0
+  s_right_flipper: 131
+  s_right_inner_lane: 0
+  s_right_outer_lane: 0
+  s_right_sling: 3
+  s_start: 0
+  s_switch_2: 0
+  s_trough_ball_1: 4
+  s_trough_ball_2: 4
+  s_trough_ball_3: 1
+  s_trough_ball_4: 0
+  s_trough_ball_5: 0
+  s_trough_ball_6: 0
+  s_trough_ball_jam: 3
+  s_trough_eject_coil: 0

@@ -1,0 +1,8 @@
+#config_version=5
+
+images: 
+
+  baron_bg:
+    file: baron.jpg
+    load: preload
+

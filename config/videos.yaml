@@ -1,0 +1,8 @@
+#config_version=5
+
+videos: 
+
+  ignite:
+    width: 1920
+    height: 1080
+    file: ignite.mkv
